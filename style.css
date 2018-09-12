@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(200, 238, 248, 0.904);
+    font-family: 'Cormorant Garamond', serif;
+}
+#container {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.904);
+    margin: 0 auto;
+}
+h1, h2, h3, h4 h5, h6 {
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    float: left;
+    color: rgb(196, 0, 153);
+    padding-left: 0.65em;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#search {
+    float: left;
+    padding: 1.25em;
+}
+#search input {
+    padding: 0.5em;
+}
+#logo-search {
+    background-color: rgb(255, 239, 204)
+}
+#navigation {
+    background-color: rgb(255, 212, 212);
+}
+#navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+#navigation ul li {
+    float: left;
+    padding: 10px 20px;
+    border-right: 1px dotted black;
+}
+#navigation ul li:hover {
+    background-color: rgb(245, 215, 252);
+    cursor: pointer;
+}
+#promotions {
+
+}
