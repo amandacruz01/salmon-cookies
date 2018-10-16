@@ -8,6 +8,15 @@
     <link href="normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Courgette|Pacifico" rel="stylesheet">
+    <script id="product-template" type="text/handlebars-v4">
+        <li class="product" data-brand="{{brand}}" data-categories="{{categories}}" data-id="{{product_id}}">
+            <img src="images/{{image}}" alt="{{title}}">
+            <h4>{{title}}</h4>
+            <p>{{price}}</p>
+            <a href="#" class="button">Learn more</a>
+        </li>
+    </script>
+
 </head>
 <body>
     <div id="container">
@@ -15,25 +24,112 @@
             <div id="logo-search" class="clearfix">
                 <h1>Oof Outfits</h1>
                 <form id="search">
-                    <input type="text" placeholder="Search...">
-                    <input type="button" value="Go">
+                    <input type="search" id="lookup" placeholder="Search">
+                    <input type="submit" value="Go">
+                    <a href="index.html"></a>
                 </form>
             </div>
             <div id="navigation" class="clearfix">
-                <ul>
-                    <li>Womens</li>
-                    <li>Mens</li>
-                    <li>Kids</li>
-                    <li>Babies</li>
-                    <li>Sports</li>
-                    <li>Brands</li>
-                </ul>
+                        <div class="dropdown">
+                            <button class="dropbtn ">Womens</button>
+                            <div class="dropdown-content">
+                              <a href="women's-shoes.html">Shoes</a>
+                              <a href="women's-dresses.html">Dresses</a>
+                              <a href="women's-skirts.html">Skirts</a>
+                            </div>
+                        </div>
+                        <div class="dropdown"> 
+                            <button class="dropbtn">Mens</button>
+                            <div class="dropdown-content">
+                              <a href="mens-sweaters.html">Sweaters</a>
+                              <a href="mens-shoes.html">Shoes</a>
+                              <a href="mens-jeans.html">Jeans</a>
+                            </div>
+                        </div>
+                        <div class="dropdown"> 
+                            <button class="dropbtn">Kids</button>
+                            <div class="dropdown-content">
+                                <a href="kids-shoes.html">Shoes</a>
+                                <a href="kids-outfits.html">Outfits</a>
+                                <a href="kids-pants.html">Pants</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">        
+                            <button class="dropbtn">Babies</button>
+                            <div class="dropdown-content">
+                                <a href="babies-onesies.html">Onesies</a>
+                                <a href="babies-shoes.html">Shoes</a>
+                                <a href="babies-hats.html">Hats</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">                 
+                            <button class="dropbtn">Brands</button>
+                            <div class="dropdown-content">
+                                <a href="brands-candles.html">Edgy Candles</a>
+                                <a href="brands-DSW.html">DSW</a>
+                                <a href="brands-prada.html">Prada</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">                     
+                            <button class="dropbtn">Clearence</button>
+                            <div class="dropdown-content">
+                                <a href="c-dresses.html">Dresses</a>
+                                <a href="c-pants.html">Pants</a>
+                                <a href="c-shirts.html">Shirts</a>
+                            </div>
+                        </div>
+                    
             </div>
             
-            <div id="promotions">
-
+            <div id="promotions" class="clearfix">
+                <span class="arrow">&lt;</span>
+                <span class="promo">Free Shipping on orders $50 and above using promo code EDLD50</span>
+                <span class="arrow">&gt;</span>
             </div>
         </header>
+        <main class="clearfix">
+            <aside>
+                <h3>Categories</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by Category</option>
+                </select>
+                <hr>
+                <h3>Brands</h3>
+                <select id="brand-filter">
+                    <option value="">--Filter by Brand</option>
+                </select>
+                <hr>
+                <h3>Materials</h3>
+                <select id="material-filter">
+                    <option value="">--Filter by Material</option>
+                </select>
+                <hr>
+                <h3>Colors</h3>
+                <select id="color-filter">
+                    <option value="">--Filter by Color</option>
+                </select>
+                <hr>
+                <h3>Sizes</h3>
+                <select id="size-filter">
+                    <option value="">--Filter by Size</option>
+                </select>
+                <hr>
+            </aside>
+            <section>
+                <h3>Top Products</h3>
+                <br>
+                <ul id="product-listings">
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2018 - Oof Ourfits</p>
+        </footer>
     </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/products-constructor.js"></script>
+    <script src="js/brand-filters.js"></script>
 </body>
 </html>
