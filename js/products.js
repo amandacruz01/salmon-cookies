@@ -32,7 +32,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["booties", "soft", "comfortable", "Shoes", "baby"],
+        categories: ["Booties", "Soft", "Shoes", "Baby"],
         product_id: "C1902"
     },
     {
@@ -44,7 +44,7 @@ var products = [
         colors: ["Black", "White", "Gold", "beige", "Purple"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Skirt", "comfy", "pleated", "women's"],
+        categories: ["Skirt", "Pleated", "Women's"],
         product_id: "C1903"
     },
     {
@@ -56,7 +56,7 @@ var products = [
         colors: ["Black", "White", "Blue"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Jersey", "comfy", "Sports"],
+        categories: ["Jersey", "Sports"],
         product_id: "C1904"
     },
     {
@@ -68,7 +68,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Skirt", "comfy", "Pleated"],
+        categories: ["Skirt", "Pleated"],
         product_id: "C1905"
     },
     {
@@ -80,7 +80,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["skirt", "comfy", "Shirt"],
+        categories: ["Skirt", "Shirt"],
         product_id: "C1906"
     },
     {
@@ -92,7 +92,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["dress", "comfy", "Off-shoulder"],
+        categories: ["Dress", "Casual", "Women's"],
         product_id: "C1907"
     },
     {
@@ -116,7 +116,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Casual", "comfy", "men", "Shoes"],
+        categories: ["Casual", "Men's", "Shoes"],
         product_id: "C1909"
     },
     {
@@ -128,7 +128,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["jeans", "Gothic", "Women's"],
+        categories: ["Jeans", "Gothic", "Women's"],
         product_id: "C1910"
     },
     {
@@ -152,7 +152,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Shoes", "pumps", "elegant"],
+        categories: ["Shoes", "Pumps"],
         product_id: "C1912"
     },
     {
@@ -164,7 +164,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["faded", "skinny", "Comfy", "Ripped"],
+        categories: ["Faded", "Skinny", "Comfy", "Ripped"],
         product_id: "C1913"
     },
     {
@@ -176,7 +176,7 @@ var products = [
         colors: ["Black", "White", "Brown"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["formal", "black", "shoes"],
+        categories: ["Formal", "Men's", "Shoes"],
         product_id: "C1914"
     },
     {
@@ -188,7 +188,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "DSW",
-        categories: ["dress", "comfy", "stripes", "Casual"],
+        categories: ["Dress", "Stripes", "Casual", "Formal"],
         product_id: "C1915"
     },
     {
@@ -200,7 +200,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["sweatshirt", "men", "comfortable"],
+        categories: ["Sweatshirt", "Men's"],
         product_id: "C1916"
     },
     {
@@ -212,7 +212,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["turkey", "comfy", "baby hat"],
+        categories: ["Turkey", "Baby hat"],
         product_id: "C1917"
     },
     {
@@ -224,7 +224,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["dress", "comfy", "i dunno"],
+        categories: ["Dress","Formal"],
         product_id: "C1918"
     },
     {
@@ -236,7 +236,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["80% Cotton, 20% Polyester"],
         brand: "Oof Outfits",
-        categories: ["toms", "Shoes", "heels"],
+        categories: ["Toms", "Shoes", "Heels", "Formal"],
         product_id: "C1919"
     },
     {
@@ -248,7 +248,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["90% Cotton, 10% Polyester"],
         brand: "Oof Outfits",
-        categories: ["Nirvana", "comfy", "i dunno"],
+        categories: ["Nirvana", "Baby"],
         product_id: "C1920"
     },
     {
@@ -260,7 +260,7 @@ var products = [
         colors: ["Black", "White", "Gold"],
         materials: ["20% Cotton, 80% Polyester"],
         brand: "Oof Outfits",
-        categories: ["jersey", "comfy", "shirt", "athletic"],
+        categories: ["Jersey", "Shirt", "Athletic"],
         product_id: "C1921"
     },
     {

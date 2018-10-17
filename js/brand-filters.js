@@ -27,18 +27,4 @@ function handleBrandFilter() {
         }
     });
 };
-setUpBrandFilter();
-
-function handleBrandFilter() {
-    $('#brand-filter').on('change', function() {
-        if($(this).val()) {
-            $('.product').hide();
-            $(`.product[data-brand="${$(this).val()}"]`).fadeIn();
-        }
-        else {
-            $('.product').fadeIn();
-        }
-    });
-};
-
 handleBrandFilter();

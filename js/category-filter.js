@@ -12,6 +12,7 @@ function setUpCategoryFilter() {
         });
     });
     categoryList.sort();
+    console.log(categoryList);
     categoryList.forEach(function(category) {
         var optionTag = `<option value="${category}">${category}</option>`;
         $('#category-filter').append(optionTag);
